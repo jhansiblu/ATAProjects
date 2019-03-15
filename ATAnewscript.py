@@ -7,7 +7,7 @@ database ='ATAtestdb',
 user ='postgres',
 password ='L!oness8')
 
-print("Connected!")
+print("I met some nice people at ATA. They are:")
 
 
 # Create a cursor object
@@ -17,7 +17,6 @@ cur = con.cursor()
 def load_data(schema, table):
 #execute query
     cur.execute ( "SELECT firstname, lastsname FROM People.staff")
-    print("I met some nice people at ATA.  They are:")
     rows = cur.fetchall() 
     for r in rows:
         print(row[0], r[1])
