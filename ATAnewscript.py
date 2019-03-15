@@ -2,10 +2,10 @@ import psycopg2
 
 #connect to db
 con = psycopg2.connect(
-HOST ='localhost',
-DATABASE ='ATAtestdb',
-USER ='postgres',
-PASSWORD ='L!oness8')
+host ='localhost',
+database ='ATAtestdb',
+user ='postgres',
+password ='L!oness8')
 
 print("Connected!")
 
