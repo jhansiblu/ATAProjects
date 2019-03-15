@@ -17,11 +17,13 @@ cur = con.cursor()
 def load_data(schema, table):
 #execute query
     cur.execute ( "select firstname, lastsname FROM staff")
+    
     rows = cur.fetchall() 
     for r in rows:
         print(row[0] r[1])
         print(f"firstname{r[0]} name {r[1]}")
-    con.commit
+    
+    cur.close()
       
   
 #close the connection
