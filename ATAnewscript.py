@@ -17,17 +17,13 @@ cur = con.cursor()
 def load_data(schema, table):
 #execute query
     cur.execute ( "SELECT firstname, lastsname FROM People.staff")
-    
+    print("I met some nice people at ATA.  They are:")
     rows = cur.fetchall() 
     for r in rows:
-        print(f"firstname {r[0]} lastsname {r[1]}")
+        print(row[0], r[1])
     
-    cur.close()
-    
-    # Load the data
-    data = pd.read_sql(sql_command, conn)
-
-    print(data.shape)
-    return (data)
+    con.commit
+      
+  
 #close the connection
 con.close()
