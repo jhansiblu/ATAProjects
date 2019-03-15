@@ -1,6 +1,6 @@
-PGHOST=atattest
-PGDATABASE=ATAtestdb
-PGUSER=postgres
+PGHOST="atattest"
+PGDATABASE="ATAtestdb"
+PGUSER="postgres"
 PGPASSWORD="L!oness8"
 
 import psycopg2
