@@ -13,7 +13,7 @@ print("I met some nice people at ATA. They are:")
 cur = con.cursor()
 
 #execute query
-cur.execute(""" SELECT firstname, lastsname FROM People.staff ORDER BY lastsname; """)
+cur.execute(""" SELECT firstname, lastsname FROM "People"."staff" ORDER BY lastsname; """)
 
 rows = cur.fetchall() 
 
