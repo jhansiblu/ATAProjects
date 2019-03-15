@@ -1,4 +1,4 @@
-PGHOST=localhost
+PGHOST=35.174.168.138
 PGDATABASE=ATAtestdb
 PGUSER=postgres
 PGPASSWORD="L!oness8"
