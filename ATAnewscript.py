@@ -5,7 +5,7 @@ con = psycopg2.connect(
 host ='35.174.168.138',
 database ='ATAtestdb',
 user ='postgres',
-password ='L!oness8')
+password ='L!oness8')  #of course would not expose in production
 
 print("I met some nice people at ATA. They are:")
 
