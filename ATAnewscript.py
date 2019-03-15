@@ -1,4 +1,4 @@
-import psycopg2
+pip install psycopg2-binary
 
 #connect to db
 con = psycopg2.connect(
