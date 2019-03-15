@@ -13,7 +13,7 @@ print("I met some nice people at ATA. They are:")
 cur = con.cursor()
 
 #execute query
-cur.execute("select firstname, lastsname from "people".staff")
+cur.execute("select firstname, lastsname from people.staff")
 
 rows = cur.fetchall() 
 
