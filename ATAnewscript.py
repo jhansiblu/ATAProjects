@@ -21,7 +21,7 @@ def load_data(schema, table):
     rows = cur.fetchall() 
     for r in rows:
        
-        print(row[0] r[1])
+        print(r[0], r[1])
     
     cur.close()
       
