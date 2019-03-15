@@ -1,2 +1,4 @@
 #! /usr/bin/python
-print('Hello, world!')
+Select CONCAT(firstname +' '+lastsname)
+from "People".staff
+order by lastsname asc
