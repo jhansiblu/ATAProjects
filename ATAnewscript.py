@@ -13,7 +13,7 @@ print("I met some nice people at ATA. They are:")
 cur = con.cursor()
 
 #execute query
-cur.execute("select * from information_schema.tables") 
+cur.execute(""" SELECT * FROM "People"."staff"; """)
 
 rows = cur.fetchall() 
 
