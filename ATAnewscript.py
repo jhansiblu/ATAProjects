@@ -18,7 +18,7 @@ cur.execute(""" SELECT firstname, lastsname FROM "People"."staff" ORDER BY lasts
 rows = cur.fetchall() 
 
 for r in rows:
-    print(r[0], r[1])
+    print "%s %s" % (r[0].strip(), r[1].strip())
     
 cur.close()
       
