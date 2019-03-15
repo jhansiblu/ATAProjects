@@ -2,7 +2,7 @@ import psycopg2
 
 #connect to db
 con = psycopg2.connect(
-host ='localhost',
+host ='35.174.168.138',
 database ='ATAtestdb',
 user ='postgres',
 password ='L!oness8')
