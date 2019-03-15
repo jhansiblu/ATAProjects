@@ -16,8 +16,8 @@ cur = con.cursor()
 
 def load_data(schema, table):
 #execute query
-    cur.execute ( "select firstname, lastsname FROM staff")
-    
+    cur.execute("select firstname, lastsname FROM staff")
+    print("queried")
     rows = cur.fetchall() 
     for r in rows:
        
