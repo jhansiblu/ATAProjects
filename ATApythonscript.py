@@ -6,10 +6,10 @@ import pandas as pd
 import example_psql as creds
 import pandas.io.sql as psql
 
-PGHOST="atattest"
-PGDATABASE="ATAtestdb"
-PGUSER="postgres"
-PGPASSWORD="L!oness8"
+pghost="atattest"
+pgdatabase="ATAtestdb"
+pguser="postgres"
+pgpassword="L!oness8"
 
 # Set up a connection to the postgres server.
 conn_string = "host="+ creds.PGHOST +" port="+ "5432" +" dbname="+ creds.PGDATABASE +" user=" + creds.PGUSER \
